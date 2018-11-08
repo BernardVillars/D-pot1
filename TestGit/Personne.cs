@@ -11,13 +11,15 @@ namespace TestGit
     {
 
         public string Nom { get; set; }
+         public string Prenom { get; set; }
         public int Age { get; set; }
 
         //Constructeur par défaut
         public Personne() : this("Default", 0) { }
 
-        public Personne(string nom, int age)
-        {
+        public Personne(string nom,string prenom, int age)
+         {    
+            this.Prenom;
             this.Nom = nom;
             this.Age = age;
         }
