@@ -13,8 +13,6 @@ namespace TestGit
         public string Nom { get; set; }
         public int Age { get; set; }
 
-        public int MyProperty { get; set; }
-
         //Constructeur par défaut
         public Personne() : this("Default", 0) { }
 
