@@ -11,13 +11,14 @@ namespace TestGit
     {
 
         public string Nom { get; set; }
-         public string Prenom { get; set; }
+        public string Prenom { get; set; }
         public int Age { get; set; }
+        public string Qualite { get; set; }
 
         //Constructeur par défaut
-        public Personne() : this("Default","Jacques", 0) { }
+        public Personne() : this("Default","Jacques", 0, "Routier") { }
 
-        public Personne(string nom,string prenom, int age)
+        public Personne(string nom,string prenom, int age,string qualite)
          {
             this.Prenom = prenom ;
             this.Nom = nom;
@@ -26,7 +27,7 @@ namespace TestGit
 
         public override string ToString()
         {
-            return String.Format("Prénom={0},Nom={1}, Age={2}", Prenom, Nom, Age);
+            return String.Format("Prénom={0},Nom={1}, Age={2}, Qualité={3}", Prenom, Nom, Age, Qualite);
         }
     }
 
