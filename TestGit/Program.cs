@@ -10,6 +10,8 @@ namespace TestGit
     {
         static void Main(string[] args)
         {
+            Personne p1 = new Personne();
+            Console.WriteLine(p1);
         }
     }
 }
