@@ -12,7 +12,6 @@ namespace TestGit
         {
             Personne p1 = new Personne();
             Console.WriteLine(p1);
-            Console.ReadKey();
         }
     }
 }
