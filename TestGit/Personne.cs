@@ -26,7 +26,7 @@ namespace TestGit
 
         public override string ToString()
         {
-            return String.Format("Nom={0}, Age={1}", Nom, Age);
+            return String.Format("Prénom={0},Nom={1}, Age={2}", Prenom, Nom, Age);
         }
     }
 
